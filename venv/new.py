@@ -36,9 +36,10 @@ print(r)
 l = 0
 m = 0
 while l <= 100:
+
+    m = m + l
     if m == 100:
         break
-    m = m + l
 
     l = l + 1
 print(m)
